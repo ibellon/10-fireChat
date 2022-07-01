@@ -1,0 +1,18 @@
+[debug] [2022-06-30T20:48:05.429Z] ----------------------------------------------------------------------
+[debug] [2022-06-30T20:48:05.431Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\isidro-bellon\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2022-06-30T20:48:05.432Z] CLI Version:   11.2.0
+[debug] [2022-06-30T20:48:05.432Z] Platform:      win32
+[debug] [2022-06-30T20:48:05.432Z] Node Version:  v16.15.1
+[debug] [2022-06-30T20:48:05.433Z] Time:          Thu Jun 30 2022 22:48:05 GMT+0200 (hora de verano de Europa central)
+[debug] [2022-06-30T20:48:05.433Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-30T20:48:05.442Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2022-06-30T20:48:06.030Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-06-30T20:48:06.032Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=72021008&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
