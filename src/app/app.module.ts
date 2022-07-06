@@ -7,10 +7,16 @@ import { AppComponent } from './app.component';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFireAnalyticsModule } from '@angular/fire/compat/analytics';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
-
-import { environment } from '../environments/environment';
-import { ChatComponent } from './components/chat/chat.component';
 import { FormsModule } from '@angular/forms';
+
+//Variables de entorno
+import { environment } from '../environments/environment';
+
+//Components (Controladores)
+import { ChatComponent } from './components/chat/chat.component';
+
+//Servicios
+import { ChatService } from './services/chat.service';
 
 @NgModule({
   declarations: [
@@ -25,7 +31,7 @@ import { FormsModule } from '@angular/forms';
     AngularFirestoreModule,
     FormsModule
   ],
-  providers: [],
+  providers: [ChatService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
