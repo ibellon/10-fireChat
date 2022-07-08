@@ -3,7 +3,15 @@
 
 <div class="app-mensajes" id="app-mensajes">
 
-    <div style="text-align: right;">
+    <div style="text-align: right;" *ngFor="let chat of chatService.chats">
+        <span class="badge text-bg-primary">Isidro</span>
+
+        <p>
+            {{chat.mensaje}}
+        </p>
+    </div>
+
+    <!-- <div style="text-align: right;">
         <span class="badge text-bg-primary">Isidro</span>
 
         <p>
@@ -17,7 +25,7 @@
         <p>
             Saludos Isidro
         </p>
-    </div>
+    </div> -->
 
 </div>
 
