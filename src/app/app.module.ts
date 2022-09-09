@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFireAnalyticsModule } from '@angular/fire/compat/analytics';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+
 import { FormsModule } from '@angular/forms';
 
 //Variables de entorno
@@ -14,14 +15,17 @@ import { environment } from '../environments/environment';
 
 //Components (Controladores)
 import { ChatComponent } from './components/chat/chat.component';
+import { LoginComponent } from './components/login/login.component';
 
 //Servicios
 import { ChatService } from './services/chat.service';
 
+
 @NgModule({
   declarations: [
     AppComponent,
-    ChatComponent
+    ChatComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
